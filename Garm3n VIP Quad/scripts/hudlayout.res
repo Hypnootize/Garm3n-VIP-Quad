@@ -192,7 +192,7 @@
 		"ypos"			"r118"
 		"zpos"			"2"
 		"wide"			"137"
-		"tall"			"12"
+		"tall"			"0"		//12
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

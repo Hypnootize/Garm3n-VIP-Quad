@@ -198,24 +198,28 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
+			"xpos"			"0"
 			"ypos"			"10"
-			"wide"			"190"
+			"wide"			"160"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"Garm3n16"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
+				"xpos"			"65"
 				"ypos"		"5"
 				"wide"		"f0"
 				"visible"	"0"
+				"font"			"HudFontSmallishBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
 			}
 		}
 
@@ -223,15 +227,15 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"65"
+			"xpos"			"0"
 			"ypos"			"25"
-			"wide"			"f0"
+			"wide"			"160"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
+			"font"			"Garm3n16"
+			"fgcolor_override"	"255 255 255 255"
 			"textAlignment"	"north-west"
 			"labelText"		"%level%"
 			"proportionaltoparent"	"1"
@@ -239,7 +243,11 @@
 			if_mini
 			{
 				"xpos"	"67"
+				"ypos"			"25"
 				"ypos"	"4"
+				"font"			"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
 			}
 		}
 
@@ -247,9 +255,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"0"
-			"wide"			"f70"
+			"xpos"			"0"
+			"ypos"			"7"
+			"wide"			"160"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -280,7 +288,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -288,6 +296,11 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall" "20"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -298,7 +311,7 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -306,6 +319,11 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall" "20"
+					}
 				}
 
 				"ProgressBarsContainer"
