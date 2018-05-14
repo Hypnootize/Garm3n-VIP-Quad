@@ -22,8 +22,8 @@
 		
 		if_match
 		{
-			"xpos"				"72"
-			"ypos"				"8"
+			"xpos"				"68"
+			"ypos"				"9"
 		}
 		
 		"TimePanelValue"
@@ -63,8 +63,8 @@
 		
 		if_match
 		{
-			"xpos"				"98"
-			"ypos"				"8"
+			"xpos"				"102"
+			"ypos"				"9"
 		}
 		
 		"TimePanelValue"
@@ -99,7 +99,7 @@
 		"zpos"				"5"
 		"wide"				"88"
 		"tall"				"3"
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"			"255 255 255 255"
 		"visible"			"0"
 		"enabled"			"1"
 	}

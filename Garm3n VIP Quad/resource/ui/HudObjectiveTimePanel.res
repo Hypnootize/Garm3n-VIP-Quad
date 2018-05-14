@@ -21,8 +21,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 
 	}
@@ -31,16 +30,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"xpos_hidef"		"159"
-		"xpos_lodef"		"165"
 		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"			"1"
@@ -52,8 +45,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -77,8 +69,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -87,12 +78,9 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"38"	
 		"ypos"			"30"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -100,8 +88,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"OvertimeLabel"
@@ -125,8 +112,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -135,8 +121,6 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -147,8 +131,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -172,8 +155,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -182,8 +164,6 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -194,8 +174,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupLabel"
@@ -219,8 +198,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -229,8 +207,6 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -241,8 +217,48 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
-	}	
+	}
+	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"center"
+		"font"			"Garm3n12Spec"
+		"fgcolor"			"Garm3nWhite"
+		"xpos"			"35"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		if_match
+		{
+			"xpos"		"36"
+		}
+	}
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"0"	
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
+	}
 }
